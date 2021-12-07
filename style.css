@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=The+Girl+Next+Door&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+/* initialisation */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Header CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin-top: 6%;
+}
+.navigation-bar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+  top: 0%;
+  margin-bottom: 3%;
+}
+a:hover {
+  color: #00b39b;
+}
+.dropdown {
+  position: relative;
+}
+.dropdownlist {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 225px;
+  margin-top: 141%;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  margin-left: -94%;
+}
+
+.dropdown:hover .dropdownlist {
+  display: block;
+}
+.dropdownlist a {
+  color: black;
+  font-family: "poppins";
+  font-weight: 200;
+}
+.dropdownlist a:hover {
+  color: rgb(50, 194, 158);
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 33px;
+  margin-right: 260px;
+  margin-top: 15px;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ababab;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* *************************************************** */
+/* Main Part CSS */
+#main_part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* box model */
+  margin-left: 12%;
+  margin-right: 12%;
+}
+#main_part p {
+  font-family: "Source Code Pro", monospace;
+}
+#main_part img {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  margin-left: 8%;
+}
+#label-patients {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+#label-doctors {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+#label-clinics-a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+#label-clinics-b {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 8%;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+.patients p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-left: 8%;
+  margin-right: 8%;
+  color: #fff;
+  flex-wrap: wrap;
+  margin-bottom: 20.5%;
+}
+.patients {
+  background: #00ccb1;
+  color: white;
+  box-sizing: inherit;
+  border-radius: 10px;
+  height: 330px;
+  width: 330px;
+}
+.doctors p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 28%;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.doctors {
+  background: #3d83df;
+  color: white;
+  box-sizing: inherit;
+  border-radius: 10px;
+  height: 330px;
+  width: 330px;
+}
+.clinics p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 8.5%;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.clinics {
+  background: #1b2734;
+  color: white;
+  box-sizing: inherit;
+  border-radius: 10px;
+  height: 330px;
+  width: 330px;
+}
+select {
+  color: black;
+}
+#countries1 {
+  border: 0;
+  outline: 0;
+  background: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Introduction Part CSS */
+#introduction_part {
+  /* postions */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* box model */
+  /* No! */
+  /* width: 80%;  */
+  margin: 2% 10%;
+}
+#introduction_part h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: "Comforter", cursive;
+  margin: 2%;
+}
+#introduction_part_paragraph {
+  display: flex;
+}
+#introduction_part_paragraph p {
+  color: gray;
+  line-height: 1.75;
+  font-weight: 400;
+  padding: 2%;
+}
+/* *********************************************** */
+/* Logos Part */
+#logo-brands {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0;
+  width: 55%;
+  list-style: none;
+  margin-right: 14.5%;
+  fill: rgb(179, 176, 176);
+}
+#logo-brands li {
+  width: 19%;
+  padding: 2%;
+}
+.gipo {
+  margin-left: 3%;
+  margin-right: -9%;
+}
+#logo-brands li svg:hover {
+  fill: rgb(50, 194, 158);
+}
+#logo-brands li img {
+  filter: grayscale(1);
+}
+#logo-brands li img:hover {
+  filter: grayscale(0);
+}
+
+#logs-part {
+  display: flex;
+  margin-left: 12%;
+  font-size: 22px;
+  color: #00b39b;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+/*statistics Part */
+#statistics {
+  background-color: #e5faf8;
+  background-image: url(https://www.docplanner.com/img/logo.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: left 140%;
+  background-position-x: 10%;
+  display: flex;
+  margin-top: 5%;
+}
+
+#title {
+  display: block;
+}
+#title h2 {
+  color: #00b39b;
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: -60%;
+  margin-bottom: 7%;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: -0.3px;
+  font-size: 30px;
+}
+#text1 p {
+  margin-left: 40%;
+  margin-right: -80%;
+  font-size: 15px;
+  color: #333;
+}
+
+#columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 21%;
+  margin-right: 11%;
+  padding-left: 7%;
+  padding-bottom: 2%;
+}
+.stats__item {
+  background-color: white;
+  padding: 6%;
+  margin: 2px;
+  text-align: center;
+  height: 195px;
+  font-size: 15px;
+  width: 172px;
+  border-radius: 2%;
+}
+#box1 {
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+#box2 {
+  margin-top: 4%;
+}
+#box4 {
+  margin-top: -2%;
+}
+.stats__item p {
+  display: block;
+  font-size: 12px;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+}
+.stats__item h3 {
+  font-weight: bold;
+  color: rgb(50, 194, 158);
+  font-family: "work sans";
+}
+.stats__item img {
+  margin: 1em;
+}
+/* Countries Part CSS */
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* box model */
+  margin: 2% 10%;
+}
+.country {
+  margin: 2%;
+  border-radius: 10px;
+}
+.country img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.country:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  cursor: pointer;
+}
+
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
+button {
+  background-color: #3d83df;
+  border-radius: 4px;
+  padding: 2%;
+  border: none;
+}
+button span {
+  color: white;
+
+  text-transform: uppercase;
+}
+#countries p {
+  font-size: 25px;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+}
+/*join us part */
+.join-us {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Work Sans, Arial, sans-serif;
+}
+.join-us-button {
+  background: #3d83df;
+  border-radius: 4px;
+  color: white;
+  margin-top: 3%;
+  max-width: 30%;
+  padding: 1%;
+}
+
+/* footer part */
+footer {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: small;
+}
+footer h5 {
+  font-weight: 200;
+  font-size: small;
+  margin-top: 3%;
+  color: #ababab;
+  font-family: Roboto, Arial, sans-serif;
+}
